@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Go with the Dough Recipes</title>  
+  <link rel="stylesheet" href="css/main.css">  
+</head>
+<body>
+  <main class="container">
+    <h1 class="hidden">Go with the Dough Recipes</h1>
+    <header class="mainHeader grid">
+      </a>
+      <div class="logoHeader">
+        <img src="img/logo.svg" alt="Go with the Dough Logo" width="132" height="100" id="logo">
+      </div>
+      <nav class="mainNav">
+        <h2 class="hidden">Main Navigation</h2>
+            <ul>
+               <li class="selected"><a href="index.html">HOME</a></li>
+               <li><a href="breads.html">BREADS</a></li>
+               <li><a href="bakes.html">BAKES</a></li>
+               <li><a href="#">ABOUT</a></li>
+               <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+      </nav>
+    </header>
+        
+        <section id="mainContact" class="grid"> <!--start mainGallery-->
+                    <h2>Contact Us</h2>
+        	<section id="contactArea"><!--start contactArea-->
+                <h2 class="hidden">Contact form</h2>
+                <p id="contactText">For more information about our various recipes please use the form below.
+            </p> 
+            <form id="contactForm" action="form.php" method="post">
+                    <label for="name">Name: (required)</label>
+                    <input type="text" required id="name" name="fullName" size="30" placeholder="Enter your name">
+                    
+                    <label for="email">Email: (will not be published)</label>
+                    <input type="email" required id="email" size="30" placeholder="Enter your Email">
+                    
+                    
+                    <label for="phone">Phone: (required)</label>
+                    <input type="tel" required id="phone" size="30" placeholder="Enter Phone Number">
+                    
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments" required cols="50" rows="8"></textarea>
+                   
+                    <input id="submit" type="submit" value="Submit">
+            </form>
+        	</section> 
+            
+            <section id="mapArea">
+            	<h3>Visit Us</h3>
+                <ul>
+                	<li>Fanshawe Downtown Campus, </li>
+					<li>130 Dundas St, London, ON N6A 1G2 </li>
+					<li>Phone: +1(519)452-4430</li>
+                </ul>    
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2966.3929523086504!2d-81.2498051325066!3d42.98243278905193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef3779e9706c1%3A0x6b0cea8bf906455!2sFanshawe%20Downtown%20Campus!5e0!3m2!1sen!2sca!4v1649965699040!5m2!1sen!2sca" width="380" height="330" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </section><!--end mapArea-->      
+        </section><!--end mainContact-->
+        
+        
+        
+        <footer class="mainFooter grid">
+      <div class="logoNav">
+        <div class="logoFooter">
+          <img src="img/logo.svg" alt="Go with the Dough Logo" width="130" height="43" id="logoFooter">
+        </div>
+        <nav class="footerNav">
+          <h2 class="hidden">Footer navigation</h2>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                  <li><a href="#">PACKAGES</a></li>
+                  <li><a href="gallery.html">GALLERY</a></li>
+                  <li><a href="#">ABOUT</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+        </nav>
+      </div>  
+
+      <div class="socialMedia">
+        <h2 class="hidden">Social Media</h2>
+        <ul id="iconNav">
+            <li id="facebook">
+              <a href="http://www.facebook.com">
+                <img src="img/facebook.svg" alt="facebook">
+              </a>
+            </li>
+            <li id="twitter">
+              <a href="http://www.twitter.com">
+                <img src="img/twitter.svg" alt="twitter">
+              </a>
+            </li>
+            <li id="youtube">
+              <a href="http://www.youtube.com">
+                <img src="img/youtube.svg" alt="youtube">
+              </a>
+           </li>
+        </ul>
+      </div>     
+    </footer>
+        
+    </main><!--end container-->
+
+<script src="js/main.js"></script>
+</body>
+</html>
